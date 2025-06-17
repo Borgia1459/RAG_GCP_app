@@ -8,6 +8,6 @@ In this project. I will be making a simple RAG system in python. The front end w
 - Licenses
 - Installation
 
-##Installation
+## Installation
 
   
