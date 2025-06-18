@@ -1,0 +1,7 @@
+# the following are the dependencies for the Django backend framework 
+django = '5.2'
+rest_framework = '3.156.0' 
+python = '3.12.11'
+sqlite = '3.455.3'
+
+# dependencies of the google cloud platform API 
