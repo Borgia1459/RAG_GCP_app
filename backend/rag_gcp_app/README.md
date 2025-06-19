@@ -1,4 +1,4 @@
-# The Backend README.md
+# The Django Backend README.md
 =====================================
 ## Overview
 
@@ -7,3 +7,4 @@ components and their roles in the system. from the design choices and frameworks
 the backend to the database schema and API endpoints. This document is intended for devs
 and people interested in the technical details of the project. Enjoy!!!
 
+## 
