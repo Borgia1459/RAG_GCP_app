@@ -84,6 +84,20 @@
   ![Retrieval powered via similarity search](image-4.png)
   unlike a tradtional database where they values have to be exact to get a result. Vector databases work of similarity between words, or in this case indexes/embeddings. A simple example of this is how the words donkey and horse can be recognized to 
   be similar because they have similar sematics relative to the question.  
+  
+  ## Query Translation 
+  finding methods to reframe queries from another perspective.this is done because some initial queries are terribly phrased 
+  and may lead to Hallucinations in the answers provided. 
+  ![General approaches to transform questions. ](image-5.png)
+  Will be using the multi-query approach. This is were we get a question and break it down into smaller questions. The idea behind this is to ensure that even when a query is framed badly. 
+  ![Multi perspective question](image-6.png) 
+  using Intuition to improve search. 
+  ![Intuition](image-7.png)
+  The responses to these separate queries can later be combined in the retrieval stage to generate a better response. 
+  ![combining query responses](image-8.png)
+  
+  
+  
   #### Document loading
    Words in indexed files are usually changed to numbers (vectors) for easier processing . This is done using word embeddings or   transformer models. The resulting vectors are then stored in a vector database. 
    ![Numerical Representation of Search](image-1.png)

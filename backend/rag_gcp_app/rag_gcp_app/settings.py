@@ -124,3 +124,12 @@ STATIC_URL = "static/"
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+# GCP Vertex AI settings
+GCP_PROJECT_ID = "your-gcp-project-id"
+GCP_LOCATION = "us-central1"  # Change to your GCP region
+import  google.cloud.aiplatform as aiplatform 
+aiplatform.init(
+    project=GCP_PROJECT_ID,
+    location=GCP_LOCATION,
+)
