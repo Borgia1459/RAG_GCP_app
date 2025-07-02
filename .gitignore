@@ -192,3 +192,10 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# files from 
+*.json
+*.env
+# .gitignore
+backend/rag_gcp_app/acoustic-realm-385717-f4e225be9213.json
+backend/rag_gcp_app/models/notebooks/langchainLLM.ipynb
